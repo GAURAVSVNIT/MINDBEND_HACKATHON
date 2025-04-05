@@ -104,7 +104,7 @@ export default function CommunityPage() {
                           <span className="text-sm text-blue-600">2 hours ago</span>
                         </div>
                         <p className="text-gray-600 mb-3">
-                          We've noticed an increase in suspicious activity around the central park area. 
+                          We&apos;ve noticed an increase in suspicious activity around the central park area. 
                           Requesting additional police patrols during evening hours.
                         </p>
                         <div className="flex items-center gap-4 text-sm text-blue-600">
