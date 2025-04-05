@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "mongodb": "^6.15.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
