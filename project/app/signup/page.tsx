@@ -16,7 +16,7 @@ function LoginPage() {
 
   const [error, setError] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Check if passwords match
@@ -31,7 +31,7 @@ function LoginPage() {
     // Here you would typically make an API call to register the user
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
