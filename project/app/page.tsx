@@ -17,7 +17,7 @@ export default function Home() {
               </p>
               <div className="flex space-x-4">
                 <Button asChild className="bg-white text-[#1e3a8a] hover:bg-gray-100">
-                  <Link href="/report">Report a Crime</Link>
+                  <Link href="/reportcrime">Report a Crime</Link>
                 </Button>
               </div>
             </div>
