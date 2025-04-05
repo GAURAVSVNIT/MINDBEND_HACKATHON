@@ -53,8 +53,8 @@ export default function RootLayout({
                   <Link href="#" className="hover:text-white">Twitter</Link>
                   <Link href="#" className="hover:text-white">Facebook</Link>
                   <Link href="#" className="hover:text-white">Instagram</Link>
-                  <Link href="#" className="hover:text-white">LinkedIn</Link>
-                  <Link href="#" className="hover:text-white">GitHub</Link>
+                 
+                  
                 </div>
               </div>
               <div>
@@ -83,7 +83,7 @@ export default function RootLayout({
                   <p>Sneha - Frontend Specialist</p>
                   <p>Gaurav - Backend Engineer</p>
                   <p>Param - Security Expert</p>
-                  <p className="mt-4">info@crimetrackers.com</p>
+                  
                 </div>
               </div>
             </div>
