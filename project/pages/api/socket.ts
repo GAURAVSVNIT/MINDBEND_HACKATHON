@@ -3,7 +3,7 @@ import { NextApiRequest } from 'next';
 import type { Server as HTTPServer } from 'http';
 import type { Socket as NetSocket } from 'net';
 import { NextApiResponse } from 'next';
-import clientPromise from '../lib/mongodb';
+import clientPromise from '../../lib/mongodb';
 
 interface SocketServer extends HTTPServer {
   io?: SocketIOServer | undefined;

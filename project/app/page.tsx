@@ -13,7 +13,7 @@ export default function Home() {
             <div>
               <h1 className="text-5xl font-bold mb-6">Report Crimes Safely and Securely</h1>
               <p className="text-xl mb-8">
-                Help build safer communities by reporting incidents through India's premier crime reporting platform.
+                Help build safer communities by reporting incidents through India&apos;s premier crime reporting platform.
               </p>
               <div className="flex space-x-4">
                 <Button asChild className="bg-white text-[#1e3a8a] hover:bg-gray-100">
@@ -65,7 +65,7 @@ export default function Home() {
               <Clock className="w-12 h-12 text-[#1e3a8a] mb-4" />
               <h3 className="text-xl font-semibold mb-2">Rapid Response</h3>
               <p className="text-gray-600">
-                Reports are quickly routed to the appropriate authorities and you'll receive a case reference number.
+                Reports are quickly routed to the appropriate authorities and you&apos;ll receive a case reference number.
               </p>
             </Card>
             <Card className="p-6">
