@@ -29,7 +29,7 @@ export default function RootLayout({
               <Link href="/" className="hover:text-gray-200">Home</Link>
               <Link href="/report" className="hover:text-gray-200">Report Crime</Link>
               <Link href="/map" className="hover:text-gray-200">Crime Map</Link>
-              <Link href="/community" className="hover:text-gray-200">community</Link>
+              <Link href="/community" className="hover:text-gray-200">Community</Link>
               <Link href="/contacts" className="hover:text-gray-200">Emergency Contacts</Link>
               <Link href="/login" className="bg-white text-[#1e3a8a] px-4 py-2 rounded-md hover:bg-gray-100">
                 Login / Sign Up
