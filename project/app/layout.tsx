@@ -47,7 +47,7 @@ export default function RootLayout({
                   <span className="font-bold text-xl text-white">Crime Trackers</span>
                 </div>
                 <p className="text-sm mb-4">
-                  India's premier crime reporting platform. Empowering communities with real-time incident tracking, advanced analytics, and collaborative safety solutions.
+                  India&#39;s premier crime reporting platform. Empowering communities with real-time incident tracking, advanced analytics, and collaborative safety solutions.
                 </p>
                 <div className="flex space-x-4">
                   <Link href="#" className="hover:text-white">Twitter</Link>
