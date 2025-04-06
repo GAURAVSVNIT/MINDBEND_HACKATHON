@@ -75,7 +75,7 @@ export default function LoginPage() {
               Forgot password? Click here
             </a>
             <br/>
-            <a href="/signup" className="text-blue-600 hover:text-blue-800 text-sm">
+            <a href="/sign-up" className="text-blue-600 hover:text-blue-800 text-sm">
               Create Account
             </a>
           </div>

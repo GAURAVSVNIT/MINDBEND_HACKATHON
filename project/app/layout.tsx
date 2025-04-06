@@ -1,21 +1,33 @@
+"use client"
+
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Shield } from 'lucide-react';
 import Link from 'next/link';
-
+import { usePathname } from 'next/navigation';
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Crime Trackers - India\'s Premier Crime Reporting Platform',
-  description: 'Report and track crimes safely and securely through India\'s leading crime reporting platform.',
-};
+// export const metadata: Metadata = {
+//   title: 'Crime Trackers - India\'s Premier Crime Reporting Platform',
+//   description: 'Report and track crimes safely and securely through India\'s leading crime reporting platform.',
+// };
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+
+  const pathname = usePathname();
+
+  // List of routes where the layout should not be shown
+  const excludedRoutes = ["/dashboard"];
+
+  // Check if the current route is in the excluded list
+  if (pathname && excludedRoutes.includes(pathname)) {
+    return <>{children}</>;
+  }
   return (
     <html lang="en">
       <body className={inter.className}>
