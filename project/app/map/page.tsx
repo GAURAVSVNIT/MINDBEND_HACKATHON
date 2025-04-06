@@ -23,15 +23,12 @@ export default function CommunityPage() {
           </header>
 
           <Tabs defaultValue="map" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 mb-8">
-              <TabsTrigger value="map" className="flex items-center gap-2">
+            <TabsList className=" w-full  mb-8">
+              <TabsTrigger value="map" className="flex mx-[50px] justify-center items-center gap-2">
                 <MapPin className="w-4 h-4" />
                 Area Safety Map
               </TabsTrigger>
-              <TabsTrigger value="discussions" className="flex items-center gap-2">
-                <MessageSquare className="w-4 h-4" />
-                Community Discussions
-              </TabsTrigger>
+             
             </TabsList>
 
             <TabsContent value="map" className="space-y-4">
@@ -84,43 +81,7 @@ export default function CommunityPage() {
               </Card>
             </TabsContent>
 
-            <TabsContent value="discussions" className="space-y-4">
-              <Card className="p-6">
-                <div className="flex justify-between items-center mb-6">
-                  <h2 className="text-2xl font-bold text-blue-900">Community Discussions</h2>
-                  <Button className="bg-blue-600 hover:bg-blue-700">
-                    Start New Discussion
-                  </Button>
-                </div>
-
-                <ScrollArea className="h-[600px] pr-4">
-                  <div className="space-y-4">
-                    {[1, 2, 3, 4, 5].map((i) => (
-                      <Card key={i} className="p-4 hover:bg-blue-50 transition-colors">
-                        <div className="flex justify-between items-start mb-2">
-                          <h3 className="font-semibold text-lg text-blue-900">
-                            Increased Patrol Request - Downtown Area
-                          </h3>
-                          <span className="text-sm text-blue-600">2 hours ago</span>
-                        </div>
-                        <p className="text-gray-600 mb-3">
-                          We've noticed an increase in suspicious activity around the central park area. 
-                          Requesting additional police patrols during evening hours.
-                        </p>
-                        <div className="flex items-center gap-4 text-sm text-blue-600">
-                          <span className="flex items-center gap-1">
-                            <MessageSquare className="w-4 h-4" /> 23 replies
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <MapPin className="w-4 h-4" /> Downtown
-                          </span>
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-                </ScrollArea>
-              </Card>
-            </TabsContent>
+           
           </Tabs>
         </div>
       </div>
