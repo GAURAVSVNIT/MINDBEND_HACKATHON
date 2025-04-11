@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-// Mock database of registered mobile numbers
+
 const registeredNumbers = [
   { phone: '1234567890', name: 'John Doe' },
   { phone: '9876543210', name: 'Jane Smith' },

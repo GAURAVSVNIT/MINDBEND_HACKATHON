@@ -78,9 +78,9 @@ export default function ReportList() {
   };
 
   const getTypeBadge = (type: Report['type']) => {
-    const variants = {
+    const variants: Record<Report['type'], "default" | "destructive" | "secondary" | "outline"> = {
       theft: "destructive",
-      vandalism: "warning",
+      vandalism: "secondary",
       assault: "destructive",
       other: "default"
     };

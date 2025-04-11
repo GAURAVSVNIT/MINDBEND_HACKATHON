@@ -33,8 +33,8 @@ export function verifyToken(token: string): JwtPayload | null {
   }
 }
 
-export function getUser(): JwtPayload | null {
-  const cookieStore = cookies();
+export async function getUser(): Promise<JwtPayload | null> {
+  const cookieStore = await cookies();
   const token = cookieStore.get('token')?.value;
   
   if (!token) return null;
